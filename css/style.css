@@ -1,0 +1,75 @@
+/* 
+
+font-family: 'Lato', sans-serif; 
+font-family: 'Dosis', sans-serif; 
+font-family: 'Sniglet', cursive;
+
+*/
+/* common start */
+body{
+    font-family: 'Dosis', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+/* common end */
+
+/* header start */
+header{
+    margin top:0 auto;
+    background-color: #ffd338;
+}
+.nav_to{
+         color: rgb(241 92 92) !important;
+         border-color: rgb(241 92 92) !important;
+}
+.nav_to:focus{
+         color: rgb(241 92 92);
+         border-color: rgb(241 92 92);
+}
+
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    color: white !important;
+    padding: 2px 20px !important;
+    border-radius:15px;
+}
+.menu ul li a:hover{
+    background-color: #f05c5c;
+
+   }
+.d_user a{
+    color: white;
+} 
+.d_user_ul{
+    background-color: #ffd338;
+    top: 164%;
+    left: -110px;
+}
+
+.d_user_a:hover{
+    color: #f05c5c;
+   }
+.d_user_a:hover{   
+            box-shadow: 0 0 0 0.25rem rgb(241 92 92) !important;
+}
+.d_search_a{
+    color: white;
+} 
+.d_search_ul{
+   background-color: #ffd338;
+    top: 164%;
+    left: -250px;
+    min-width: 20rem;
+}
+.d_search_a:hover{
+    color: #f05c5c;
+   }
+.d_search_a:hover{   
+    box-shadow: 0 0 0 0.25rem rgb(241 92 92) !important;
+}
+
+
+
+/* header end */
